@@ -1,0 +1,68 @@
+header {
+    .logo {
+        margin: center;
+        padding: 20px;
+        a {
+            display: inline-block;
+            img {
+                vertical-align: top;
+                border: 1px solid #000;
+                border-radius: 50%;
+            }
+        }
+    }
+    .redes_sociales {
+        text-align: right;
+        line-height: 5em;
+        a {
+            border-radius: 50%;
+            width: 2.5em;
+            height: 2.5em;
+            text-align: center;
+            line-height: 2.5em;
+            display: inline-block;
+            background: navy;
+            color: #fff;
+            margin-left: 1.25em;
+            &.youtube {
+                background-color: #c4302b;
+            }
+            &.facebook {
+                background-color: #3b5998;
+            }
+            &.instagram {
+                background-color: #c13584;
+            }
+            &.github {
+                background-color: #000;
+            }
+        }
+    }
+    .menu {
+        background-color: $azul_primario;
+        margin-bottom: 1.25em;
+        ul {
+            list-style: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            li {
+                float: left;
+                text-align: center;
+                a {
+                    color: #fff;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: 0.87em;
+                    color: #fff;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: none;
+                        background: $azul_secundario;
+                    }
+                }
+            }
+        }
+    }
+}

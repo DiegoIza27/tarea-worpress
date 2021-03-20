@@ -1,0 +1,116 @@
+                .sidebar {
+                    .widget {
+                        margin-bottom: 2.5em;
+                        &.redes-sociales {
+                            overflow: hidden;
+                            a {
+                                float: left;
+                                padding: 1.25em;
+                                width: 33.33333%;
+                                text-align: center;
+                                background-color: #000;
+                                color: #fff;
+                                display: inline-block;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                                &.youtube {
+                                    background-color: #c4302b;
+                                }
+                                &.facebook {
+                                    background-color: #3b5998;
+                                }
+                                &.instagram {
+                                    background-color: #c13584;
+                                }
+                                &.github {
+                                    background-color: #000;
+                                }
+                                .icono {
+                                    width: 100%;
+                                    font-size: 1.875em;
+                                    margin-bottom: 0.5em;
+                                }
+                            }
+                        }
+                        &.boletin {
+                            .formulario {
+                                background-color: #0e2b37;
+                                padding: 1.25em;
+                                text-align: center;
+                                label {
+                                    color: #fff;
+                                    margin-bottom: 1.25em;
+                                    display: block;
+                                    font-family: $font-family;
+                                    font-weight: normal;
+                                }
+                                input[type="email"] {
+                                    color: $gris_claro;
+                                    text-align: center;
+                                    padding: 0.625em;
+                                    font-size: 1.125em;
+                                    border-radius: 3px;
+                                    width: 90%;
+                                    border: none;
+                                    margin-bottom: 1.25em;
+                                }
+                                input[type="submit"] {
+                                    border-radius: 3px;
+                                    padding: 0.625em 1.875em;
+                                    background: $verde;
+                                    border: none;
+                                    color: #000;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    border: 1px solid #fff;
+                                    &:hover {
+                                        background-color: $gris_oscuro;
+                                        color: #fff;
+                                        cursor: pointer;
+                                        border: 1px solid #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .contenedor-ad {
+                        text-align: center;
+                        a {
+                            display: inline-block;
+                        }
+                    }
+                }
+                
+                .sidebar {
+                    .widget {
+                        &.redes-sociales {
+                            .titulo_seccion {
+                                h3 {
+                                    font-family: $font-family-2;
+                                    font-size: 1.5em;
+                                    line-height: 1.5em;
+                                    font-weight: normal;
+                                    color: $gris_oscuro;
+                                    padding: 0.62em;
+                                    border-bottom: 4px solid $verde;
+                                    margin-bottom: 1.25em;
+                                }
+                            }
+                        }
+                        &.boletin {
+                            .titulo-seccion {
+                                h3 {
+                                    font-family: $font-family-2;
+                                    font-size: 1.5em;
+                                    line-height: 1.5em;
+                                    font-weight: normal;
+                                    color: $gris_oscuro;
+                                    padding: 0.62em;
+                                    border-bottom: 4px solid $verde;
+                                    margin-bottom: 1.25em;
+                                }
+                            }
+                        }
+                    }
+                }

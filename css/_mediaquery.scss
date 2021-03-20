@@ -1,0 +1,46 @@
+@media screen and (max-width:768px) {
+    header {
+        .logo {
+            text-align: center;
+        }
+        .redes_sociales {
+            display: none;
+        }
+        .menu {
+            .container {
+                ul {
+                    text-align: center;
+                    li {
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+    .main {
+        .posts {
+            .post {
+                .contenedor {
+                    .info {
+                        .extracto {
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sidebar {
+        display: none;
+    }
+    footer {
+        .menu {
+            ul {
+                text-align: center;
+                li {
+                    float: none;
+                }
+            }
+        }
+    }
+}
